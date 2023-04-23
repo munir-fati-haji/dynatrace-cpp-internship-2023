@@ -26,7 +26,7 @@ namespace internship {
 
         std::chrono::hours diff = std::chrono::duration_cast<std::chrono::hours>(std::chrono::system_clock::from_time_t(input_t) - std::chrono::system_clock::from_time_t(now_t));
 
-        return diff.count() / 24 + 1;
+        return diff.count() / 24 + 2;
     }
 
     void mySolution(const std::string &jsonFileName, const int &elementsCount) {
